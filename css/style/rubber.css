@@ -179,6 +179,10 @@
     .modal-content{
         width: 100%;
     }
+    
+    .modal.fade.in{
+        padding: 0;
+    }
 }
 
 
