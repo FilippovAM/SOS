@@ -1,0 +1,349 @@
+.section_main{
+    background: no-repeat url(../../img/background_image.png) 0 0;
+    background-size: cover;
+}
+
+.main_button{
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    background-color: #cd4237;
+    border-radius: 0 0 10px 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+
+    -webkit-transition: background-color ease-in-out .15s;
+    -o-transition: background-color ease-in-out .15s;
+    transition: background-color ease-in-out .15s;
+}
+
+.main_button:hover{
+    background-color: #ea4638;
+}
+
+.main_button:active{
+    padding: calc(15px + 1px) 20px calc(15px - 1px);
+}
+
+.main_form_tittle{
+    display: inline-block;
+    text-align: center;
+    color: #455d6f;
+    text-transform: uppercase;
+    font-size: 43px;
+}
+
+.main_form{
+    float: right;
+    max-width: 460px;
+    padding: 20px;
+    margin: 70px 0;
+    box-shadow: 0 0 10px #8b8b8b;
+
+    -webkit-transition: all ease-in-out .15s;
+    -o-transition: all ease-in-out .15s;
+    transition: all ease-in-out .15s;
+}
+
+.main_form_fieldset{
+    padding: 0 50px;
+    margin-top: 45px;
+}
+
+.main_form_fieldset input{
+    width: 100%;
+    padding: 15px;
+    height: 50px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #c9d3b6;
+}
+
+.main_form_submit{
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #81b51a;
+    border-radius: 5px;
+    margin-bottom: 10px !important;
+
+    -webkit-transition: background-color ease-in-out .15s;
+    -o-transition: background-color ease-in-out .15s;
+    transition: background-color ease-in-out .15s;
+}
+
+.main_form_submit:active{
+    padding: calc(15px + 1px) 15px calc(15px - 1px);
+}
+
+.main_form_submit:hover{
+    background-color: #a9e51a;
+}
+
+.main_form_fieldset p{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.main_nav_slider{
+    display: none;
+    margin-bottom: 15px;
+}
+
+.main_nav_slider .slides > li{
+    background-color: #cd4237;
+    padding: 20px 0;
+    text-align: center;
+    height: 170px;
+}
+
+.main_nav_slider p{
+    display: inline-block;
+    max-width: 300px;
+    color: white;
+    font-size: 17px;
+    padding: 0 25px;
+}
+
+.main_nav{
+    background-color: #cd4237;
+}
+
+.flex-control-nav{
+    display: none;
+}
+
+.main_nav_container  li{
+    width: 25%;
+    padding: 0 10px;
+}
+
+.main_nav_container{
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.main_nav_container li{
+    display: inline-block;
+    border-left: 1px solid #ab2b21;
+    vertical-align: top;
+}
+
+.main_nav_container li:first-child{
+    border-left: none;
+}
+
+.main_nav_container li p{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    max-width: 210px;
+}
+
+.main_nav_container i, .main_nav_slider i{
+    font-size: 50px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.main_catalog{
+    margin: 40px 0;
+    text-align: center;
+}
+
+.main_catalog li{
+    display: inline-block;
+    padding: 25px 10px;
+    margin: 0 15px 15px 15px;
+    max-width: 355px;
+    min-width: 250px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #c6c6c6;
+
+    -webkit-transition: all ease-in-out .15s;
+    -o-transition: all ease-in-out .15s;
+    transition: all ease-in-out .15s;
+}
+
+.main_catalog li:hover{
+    box-shadow: 0 0 10px #8b8b8b;
+}
+
+.main_catalog img{
+    vertical-align: top;
+}
+
+.phone_description{
+    display: inline-block;
+}
+
+.phone_description i{
+    color: black;
+    font-size: 35px;
+    vertical-align: middle;
+
+    -webkit-transition: transform ease-in-out .15s;
+    -o-transition: transform ease-in-out .15s;
+    transition: transform ease-in-out .15s;
+}
+
+.phone_description > div{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+    text-align: left;
+}
+
+.phone_description > div:hover i{
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+    transform: translateY(-2px);
+
+    color: #cd4237;
+}
+
+.phone_description > div:nth-child(1):hover i{
+    color: rgba(0, 150, 204, 0.77);
+}
+
+.phone_description > div:nth-child(2):hover i{
+    color: #FA5C1A;
+}
+
+.phone_description > div:nth-child(3):hover i{
+    color: #1bd61b;
+}
+
+
+.phone_description p{
+    margin-left: 5px;
+    display: inline-block;
+    max-width: 80px;
+    vertical-align: middle;
+}
+
+.helper{
+    display: inline-block;
+    width: 0;
+    height: 100%;
+}
+
+.main_catalog_tittle{
+    margin-top: 10px;
+    font-size: 24px;
+    color: #455d6f;
+}
+
+.price{
+    margin-top: 10px;
+    font-size: 30px;
+    color: black;
+}
+
+.main_catalog_button{
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.main_catalog_button:active{
+    padding: calc(10px + 1px) 50px calc(10px - 1px);
+}
+
+.header_modal{
+    position: relative;
+}
+
+.header_modal h3{
+    margin: 0 0 10px;
+    padding-left: 1px;
+    font-size: 19px;
+    line-height: 40px;
+    color: #414a5a;
+}
+
+.modal_form_fieldset input{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 11px 16px;
+    border: 1px solid #dae1ee;
+    outline: 0;
+    font-size: 15px;
+    line-height: 21px;
+    font-family: arial,verdana,sans-serif;
+    color: #444;
+    border-radius: 3px;
+
+    -webkit-transition: all ease-in-out .15s;
+    -o-transition: all ease-in-out .15s;
+    transition: all ease-in-out .15s;
+}
+
+.modal_form_fieldset input:focus{
+    box-shadow: 0 0 8px 0 rgba(223, 0, 36, 0.18);
+    z-index: 5;
+}
+
+.modal-content{
+    width: 370px;
+    padding: 20px 30px;
+    margin: 0 auto;
+}
+
+.form_block {
+    margin: 0 0 16px;
+}
+
+.form_block_submit{
+    margin-bottom: 10px;
+}
+
+.modal_form_submit {
+    border: 1px solid #af3e33;
+    background-color: #cd4237;
+    color: #fff;
+}
+
+.form-button {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 45px;
+    border-radius: 3px;
+    font-size: 15px;
+    line-height: 42px;
+}
+
+.form-button:hover{
+    background-color: #ea4638;
+}
+
+.modal_form_fieldset p{
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.header_modal .close_modal {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -9px;
+    font-size: 30px;
+    color: #5d6778;
+    cursor: pointer;
+}
+
+
+
+
