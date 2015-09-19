@@ -175,6 +175,10 @@
     .main_catalog{
         margin: 20px 0;
     }
+    
+    .modal-content{
+        width: 100%;
+    }
 }
 
 
