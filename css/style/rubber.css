@@ -176,6 +176,10 @@
         margin: 20px 0;
     }
     
+    .modal.fade.in{
+        padding: 0;
+    }
+    
     .modal-content{
         width: 100%;
     }
